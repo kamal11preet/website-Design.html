@@ -1,0 +1,20 @@
+#top{
+        display: flex;
+        background-color: rgb(56, 51, 51);
+        font-size: larger;
+        color: beige;
+        justify-content: space-around;
+        padding: 16px;
+}
+.top2{
+    display: flex;
+    justify-content: center;
+}
+.top3{
+    display: flex;
+    justify-content: center;
+}
+.para1{
+    display: flex;
+    justify-content: center;
+}
