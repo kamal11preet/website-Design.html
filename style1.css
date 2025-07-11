@@ -1,10 +1,21 @@
 #top{
         display: flex;
-        background-color: rgb(56, 51, 51);
+        background-color: rgb(116, 106, 106);
         font-size: larger;
         color: beige;
         justify-content: space-around;
-        padding: 16px;
+        padding: 10px;
+}
+
+.topnav{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.topnav2{
+    display: flex;
+    gap: 25px;
 }
 .top2{
     display: flex;
