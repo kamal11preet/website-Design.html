@@ -3,10 +3,13 @@
         background-color: rgb(116, 106, 106);
         font-size: larger;
         color: beige;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 10px;
+        
 }
-
+.logo{
+    display: flex;
+}
 .topnav{
     display: flex;
     gap: 25px;
@@ -15,6 +18,8 @@
 
 .topnav2{
     display: flex;
+    justify-content: center;
+    align-items: first baseline;
     gap: 25px;
 }
 .top2{
