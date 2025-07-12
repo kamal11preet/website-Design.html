@@ -1,25 +1,50 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
 #top{
+         
+    width: 100%;
+    height: 70px;
         display: flex;
         background-color: rgb(116, 106, 106);
         font-size: larger;
         color: beige;
-        justify-content: space-between;
-        padding: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        
         
 }
 .logo{
     display: flex;
+    width: 40%;
+    height: 150%;
+
+    }
+
+.fulltopnav{
+    display: flex;
+    justify-content: space-evenly;
 }
 .topnav{
     display: flex;
     gap: 25px;
     font-size: 20px;
+    justify-content: space-evenly;
+    color: white;
 }
 
 .topnav2{
     display: flex;
-    justify-content: center;
-    align-items: first baseline;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+
     gap: 25px;
 }
 .top2{
@@ -33,4 +58,43 @@
 .para1{
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+#top .fulltopnav .topnav li a{
+    text-decoration: none;
+
+}
+#top .fulltopnav .topnav li a:hover{
+
+    color: brown;
+    font-size: x-large;
+}
+
+#top .fulltopnav .topnav li{
+    list-style: none;
+}
+.firstpage{
+    width: 100%;
+    height: 500px;
+
+    
+
+
+}
+.firstpage img{
+    width: 100%;
+    height: 100vh;
+
+}
+.board1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    border: 2px solid gray;
+    
 }
