@@ -98,10 +98,29 @@
     width: 100%;
     height: 500px;
     background-image: url(./images/1920_Emirates-A380-132221.jpg);
-    
-    
-    
-    
+    position: relative;
+}
+
+.firstpage .coverlogo{
+
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 88%;
+} 
+
+.firstpage p{
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.firstpage p:hover{
+    transform: scale(1.3);
+    color: rgb(255, 255, 255);
+    transition: all ease 2s;
 
 }
 .board1{
@@ -221,7 +240,7 @@
 #student .studentpic img{
     width: 100%;
     height: 100vh;
-    border: 1px solid black;
+    
 
 }
 
