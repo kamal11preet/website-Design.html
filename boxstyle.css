@@ -115,7 +115,7 @@ transform: rotate(15deg);
     height: 500px;
     border: 5px solid black;
     transform: rotate(360deg);
-    box-shadow: 50px 50px 80px 50px ;
+    box-shadow: 5px 0px 80px 50px ;
     background: linear-gradient(rgb(196, 190, 190) brown);
     transition: all ease 1s;
 }
@@ -130,5 +130,5 @@ transform: rotate(15deg);
 
 #part2 :hover{
     transform: scale(1.1) rotate(90deg) ;
-    border-bottom-right-radius: 50%;
+    
 }
