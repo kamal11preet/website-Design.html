@@ -1,0 +1,9 @@
+{
+	"name": "fac1000",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "20f29f3a-f889-41ff-899d-82dcec20ed1a",
+		"tenantId": "45c97e0d-ffe1-436d-8aa2-cccb404d2382"
+	}
+}
